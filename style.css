@@ -1,0 +1,166 @@
+*{
+        padding: 0;
+        margin: 0;
+       }
+        body {
+            font-family: Arial;
+            background-color: white;
+        }
+
+    
+
+        .navbar {
+            height: 70px;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid lightgray;
+        }
+
+        .logo {
+            color: #b49946;
+            font-size: 28px;
+            margin-left: 25px;
+            margin-right: 40px;
+        }
+
+        .delivery {
+            margin-left: 5px;
+            margin-top: 10px;
+        }
+
+        .delivery h4 {
+            font-size: 13px;
+        }
+
+        .delivery p {
+            font-size: 10px;
+            margin-top: 8px;
+        }
+
+        .search {
+            background-color: #f5f5f5;
+            width: 520px;
+            height: 43px;
+            margin-left: 35px;
+            margin-top: 8px;
+            border-radius: 12px;
+            padding-left: 20px;
+            border: 1px solid #eee;
+        }
+
+        .search p {
+            margin-top: 13px;
+            color: gray;
+            font-size: 14px;
+        }
+
+        .login {
+            margin-left: 260px;
+            margin-top: 15px;
+        }
+
+        .cart {
+            background-color: #f2f2f2;
+            padding: 14px;
+            margin-left: 35px;
+            border-radius: 2px;
+            color: gray;
+        }
+
+        
+
+        .main {
+            height: 213px;
+            width: 88%;
+            margin-left: 6%;
+            margin-top: 10px;
+
+            
+            background-color: green;
+
+            background-position: center;
+            border-radius: 10px;
+
+            padding: 32px;
+            color: white;
+        }
+
+        .main h1 {
+            font-size: 36px;
+            margin-left: 3px;
+            margin-top: 1px;
+        }
+
+        
+
+        button {
+            background-color: white;
+            border: none;
+            padding: 8px 14px;
+            border-radius: 4px;
+        }
+
+        .main button {
+            margin-left: 2px;
+            margin-top: 13px;
+        }
+
+        .container {
+            display: flex;
+            margin-left: 6%;
+            margin-top: 10px;
+        }
+
+        .box {
+            height: 130px;
+            width: 29%;
+            padding: 13px;
+            border-radius: 12px;
+            margin-right: 12px;
+            position: relative;
+        }
+
+        .box h2 {
+            font-size: 15px;
+            margin-top: 2px;
+            margin-left: 0px;
+        }
+
+
+        .box button {
+            font-size: 10px;
+            margin-top: 15px;
+        }
+
+        .box span {
+            position: absolute;
+            font-size: 45px;
+        }
+
+
+        .medicine {
+            background-color: #13c3b6;
+            color: white;
+            margin-top: 5px;
+        }
+
+        .medicine span {
+            right: 20px;
+            bottom: 5px;
+        }
+
+        .pet {
+            background-color: #ffce32;
+            color: black;
+            margin-top: 10px;
+        }
+
+        
+
+        .baby {
+            background-color: #dce6f2;
+            color: black;
+            margin-top: 12px;
+        }
+
+       
